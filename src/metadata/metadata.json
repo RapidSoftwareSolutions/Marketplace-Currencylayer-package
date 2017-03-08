@@ -1,0 +1,178 @@
+{
+    "package": "Currencylayer",
+    "tagline": "Reliable Exchange Rates & Currency.",
+    "description": "Reliable Exchange Rates & Currency.",
+    "image": "https://logo.clearbit.com/currencylayer.com?s=128",
+    "repo": "https://github.com/RapidSoftwareSolutions/Marketplace-Currencylayer-package",
+    "keywords": [
+        "API",
+        "currency",
+        "Currencylayer"
+    ],
+    "accounts": {
+        "domain": "currencylayer.com",
+        "credentials": [
+            "accessKey"
+        ]
+    },
+    "blocks": [
+        {
+            "name": "getCurrencies",
+            "description": "A full list of supported currencies.",
+            "args": [
+                {
+                    "name": "accessKey",
+                    "type": "String",
+                    "info": "Your API Access Key.",
+                    "required": true
+                }
+            ],
+            "callbacks": [
+                {
+                    "name": "error",
+                    "info": "Error"
+                },
+                {
+                    "name": "success",
+                    "info": "Success"
+                }
+            ]
+        },
+        {
+            "name": "getRealTimeExchangeRates",
+            "description": "Real-time exchange rates.",
+            "args": [
+                {
+                    "name": "accessKey",
+                    "type": "String",
+                    "info": "Your API Access Key.",
+                    "required": true
+                },
+                {
+                    "name": "currencies",
+                    "type": "String",
+                    "info": "Comma separated list of currencies.",
+                    "required": true
+                }
+            ],
+            "callbacks": [
+                {
+                    "name": "error",
+                    "info": "Error"
+                },
+                {
+                    "name": "success",
+                    "info": "Success"
+                }
+            ]
+        },
+        {
+            "name": "getHistoricalExchangeRate",
+            "description": "Historical exchange rate data for every past day of the last 16 years.",
+            "args": [
+                {
+                    "name": "accessKey",
+                    "type": "String",
+                    "info": "Your API Access Key.",
+                    "required": true
+                },
+                {
+                    "name": "date",
+                    "type": "String",
+                    "info": "Valid date. Format: YYYY-MM-DD.",
+                    "required": true
+                }
+            ],
+            "callbacks": [
+                {
+                    "name": "error",
+                    "info": "Error"
+                },
+                {
+                    "name": "success",
+                    "info": "Success"
+                }
+            ]
+        },
+        {
+            "name": "getCurrencyConversion",
+            "description": "Single currency conversion.",
+            "args": [
+                {
+                    "name": "accessKey",
+                    "type": "String",
+                    "info": "Your API Access Key.",
+                    "required": true
+                },
+                {
+                    "name": "fromCurrencie",
+                    "type": "String",
+                    "info": "From which currency convert. Currency Code.",
+                    "required": true
+                },
+                {
+                    "name": "toCurrencie",
+                    "type": "String",
+                    "info": "To what currency convert. Currency Code.",
+                    "required": true
+                },
+                {
+                    "name": "amount",
+                    "type": "Number",
+                    "info": "The amount you would like to convert.",
+                    "required": true
+                }
+            ],
+            "callbacks": [
+                {
+                    "name": "error",
+                    "info": "Error"
+                },
+                {
+                    "name": "success",
+                    "info": "Success"
+                }
+            ]
+        },
+        {
+            "name": "getCurrenciesChanges",
+            "description": "Margin and percentage change of one or more currencies.",
+            "args": [
+                {
+                    "name": "accessKey",
+                    "type": "String",
+                    "info": "Your API Access Key.",
+                    "required": true
+                },
+                {
+                    "name": "startDate",
+                    "type": "String",
+                    "info": "Valid date. Format: YYYY-MM-DD.",
+                    "required": true
+                },
+                {
+                    "name": "endDate",
+                    "type": "String",
+                    "info": "Valid date. Format: YYYY-MM-DD.",
+                    "required": true
+                },
+                {
+                    "name": "currencies",
+                    "type": "String",
+                    "info": "Comma separated list of currencies.",
+                    "required": true
+                }
+            ],
+            "callbacks": [
+                {
+                    "name": "error",
+                    "info": "Error"
+                },
+                {
+                    "name": "success",
+                    "info": "Success"
+                }
+            ]
+        }
+    ]
+}
