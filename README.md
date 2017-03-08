@@ -6,8 +6,9 @@ Reliable Exchange Rates & Currency.
 * Credentials: accessKey
 
 ## How to get credentials: 
-0. Item one 
-1. Item two 
+0. Sign up in [Currencylayer](https://currencylayer.com/product).
+1. Navigate to [Quickstart page](https://currencylayer.com/quickstart)
+2. Use Access Key as credentials.
 
 ## Currencylayer.getCurrencies
 A full list of supported currencies.

@@ -179,14 +179,14 @@ return array (
     'custom' => array (
         'getCurrencies' => array (
             'dictionary' => array (
-                'accessKey' => 'accessKey',
+                'accessKey' => 'access_key',
             ),
             'vendorUrl' => 'http://apilayer.net/api/list',
             'method' => 'GET',
         ),
         'getRealTimeExchangeRates' => array (
             'dictionary' => array (
-                'accessKey' => 'accessKey',
+                'accessKey' => 'access_key',
                 'currencies' => 'currencies',
             ),
             'vendorUrl' => 'http://apilayer.net/api/live',
@@ -194,7 +194,7 @@ return array (
         ),
         'getHistoricalExchangeRate' => array (
             'dictionary' => array (
-                'accessKey' => 'accessKey',
+                'accessKey' => 'access_key',
                 'date' => 'date',
             ),
             'vendorUrl' => 'http://apilayer.net/api/historical',
@@ -202,7 +202,7 @@ return array (
         ),
         'getCurrencyConversion' => array (
             'dictionary' => array (
-                'accessKey' => 'accessKey',
+                'accessKey' => 'access_key',
                 'fromCurrencie' => 'from',
                 'toCurrencie' => 'to',
                 'amount' => 'amount'
@@ -212,7 +212,7 @@ return array (
         ),
         'getCurrenciesChanges' => array (
             'dictionary' => array (
-                'accessKey' => 'accessKey',
+                'accessKey' => 'access_key',
                 'startDate' => 'start_date',
                 'endDate' => 'end_date',
                 'currencies' => 'currencies',
