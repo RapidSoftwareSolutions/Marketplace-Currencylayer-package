@@ -22,7 +22,7 @@
             "args": [
                 {
                     "name": "accessKey",
-                    "type": "String",
+                    "type": "credentials",
                     "info": "Your API Access Key.",
                     "required": true
                 }
@@ -44,7 +44,7 @@
             "args": [
                 {
                     "name": "accessKey",
-                    "type": "String",
+                    "type": "credentials",
                     "info": "Your API Access Key.",
                     "required": true
                 },
@@ -72,7 +72,7 @@
             "args": [
                 {
                     "name": "accessKey",
-                    "type": "String",
+                    "type": "credentials",
                     "info": "Your API Access Key.",
                     "required": true
                 },
@@ -100,7 +100,7 @@
             "args": [
                 {
                     "name": "accessKey",
-                    "type": "String",
+                    "type": "credentials",
                     "info": "Your API Access Key.",
                     "required": true
                 },
@@ -140,7 +140,7 @@
             "args": [
                 {
                     "name": "accessKey",
-                    "type": "String",
+                    "type": "credentials",
                     "info": "Your API Access Key.",
                     "required": true
                 },

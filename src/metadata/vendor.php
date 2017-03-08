@@ -23,7 +23,7 @@ return array (
             'args' => array (
                 array (
                     'name' => 'accessKey',
-                    'type' => 'String',
+                    'type' => 'credentials',
                     'info' => 'Your API Access Key.',
                     'required' => true,
                 ),
@@ -45,7 +45,7 @@ return array (
             'args' => array (
                 array (
                     'name' => 'accessKey',
-                    'type' => 'String',
+                    'type' => 'credentials',
                     'info' => 'Your API Access Key.',
                     'required' => true,
                 ),
@@ -73,7 +73,7 @@ return array (
             'args' => array (
                 array (
                     'name' => 'accessKey',
-                    'type' => 'String',
+                    'type' => 'credentials',
                     'info' => 'Your API Access Key.',
                     'required' => true,
                 ),
@@ -101,7 +101,7 @@ return array (
             'args' => array (
                 array (
                     'name' => 'accessKey',
-                    'type' => 'String',
+                    'type' => 'credentials',
                     'info' => 'Your API Access Key.',
                     'required' => true,
                 ),
@@ -141,7 +141,7 @@ return array (
             'args' => array (
                 array (
                     'name' => 'accessKey',
-                    'type' => 'String',
+                    'type' => 'credentials',
                     'info' => 'Your API Access Key.',
                     'required' => true,
                 ),
