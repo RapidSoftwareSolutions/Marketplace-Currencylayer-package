@@ -296,6 +296,15 @@ class Router
                 $responseBody = json_encode('success');
             }
 
+            $responseBodyArr = json_decode($responseBody, true);
+            if(isset($responseBodyArr['success'])&&$responseBodyArr['success']==false){
+                $result['callback'] = 'error';
+                $result['contextWrites']['to']['status_code'] = 'API_ERROR';
+                $result['contextWrites']['to']['status_msg'] = $responseBodyArr;
+
+                return $result;
+            }
+
             $result['callback'] = 'success';
             if(empty(json_decode($responseBody))&&strlen($responseBody)==0) {
                 $result['contextWrites']['to'] = 'success' . $responseBody;
