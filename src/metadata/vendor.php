@@ -106,13 +106,13 @@ return array (
                     'required' => true,
                 ),
                 array (
-                    'name' => 'fromCurrencie',
+                    'name' => 'fromCurrency',
                     'type' => 'String',
                     'info' => 'From which currency convert. Currency Code.',
                     'required' => true,
                 ),
                 array (
-                    'name' => 'toCurrencie',
+                    'name' => 'toCurrency',
                     'type' => 'String',
                     'info' => 'To what currency convert. Currency Code.',
                     'required' => true,
