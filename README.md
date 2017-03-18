@@ -39,8 +39,8 @@ Single currency conversion.
 | Field        | Type       | Description
 |--------------|------------|----------
 | accessKey    | credentials| Your API Access Key.
-| fromCurrencie| String     | From which currency convert. Currency Code.
-| toCurrencie  | String     | To what currency convert. Currency Code.
+| fromCurrency| String     | From which currency convert. Currency Code.
+| toCurrency  | String     | To what currency convert. Currency Code.
 | amount       | Number     | The amount you would like to convert.
 
 ## Currencylayer.getCurrenciesChanges
