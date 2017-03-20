@@ -203,8 +203,8 @@ return array (
         'getCurrencyConversion' => array (
             'dictionary' => array (
                 'accessKey' => 'access_key',
-                'fromCurrencie' => 'from',
-                'toCurrencie' => 'to',
+                'fromCurrency' => 'from',
+                'toCurrency' => 'to',
                 'amount' => 'amount'
             ),
             'vendorUrl' => 'http://apilayer.net/api/convert',
