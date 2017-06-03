@@ -23,7 +23,7 @@ Real-time exchange rates.
 | Field     | Type       | Description
 |-----------|------------|----------
 | accessKey | credentials| Your API Access Key.
-| currencies| String     | Comma separated list of currencies.
+| currencies| List       | List of currencies.
 
 ## Currencylayer.getHistoricalExchangeRate
 Historical exchange rate data for every past day of the last 16 years.
@@ -31,7 +31,7 @@ Historical exchange rate data for every past day of the last 16 years.
 | Field    | Type       | Description
 |----------|------------|----------
 | accessKey| credentials| Your API Access Key.
-| date     | String     | Valid date. Format: YYYY-MM-DD.
+| date     | DatePicker | Valid date. Format: YYYY-MM-DD.
 
 ## Currencylayer.getCurrencyConversion
 Single currency conversion.
@@ -49,7 +49,7 @@ Margin and percentage change of one or more currencies.
 | Field     | Type       | Description
 |-----------|------------|----------
 | accessKey | credentials| Your API Access Key.
-| startDate | String     | Valid date. Format: YYYY-MM-DD.
-| endDate   | String     | Valid date. Format: YYYY-MM-DD.
-| currencies| String     | Comma separated list of currencies.
+| startDate | DatePicker | Valid date. Format: YYYY-MM-DD.
+| endDate   | DatePicker | Valid date. Format: YYYY-MM-DD.
+| currencies| List       | List of currencies.
 

@@ -50,9 +50,15 @@
                 },
                 {
                     "name": "currencies",
-                    "type": "String",
-                    "info": "Comma separated list of currencies.",
-                    "required": true
+                    "type": "List",
+                    "info": "List of currencies.",
+                    "required": true,
+                    "structure": {
+                        "name": "currency",
+                        "type": "String",
+                        "info": "Currency name. Example: USD, EUR etc."
+                        "required": true
+                    }
                 }
             ],
             "callbacks": [
@@ -78,7 +84,7 @@
                 },
                 {
                     "name": "date",
-                    "type": "String",
+                    "type": "DatePicker",
                     "info": "Valid date. Format: YYYY-MM-DD.",
                     "required": true
                 }
@@ -146,21 +152,27 @@
                 },
                 {
                     "name": "startDate",
-                    "type": "String",
+                    "type": "DatePicker",
                     "info": "Valid date. Format: YYYY-MM-DD.",
                     "required": true
                 },
                 {
                     "name": "endDate",
-                    "type": "String",
+                    "type": "DatePicker",
                     "info": "Valid date. Format: YYYY-MM-DD.",
                     "required": true
                 },
                 {
                     "name": "currencies",
-                    "type": "String",
-                    "info": "Comma separated list of currencies.",
-                    "required": true
+                    "type": "List",
+                    "info": "List of currencies.",
+                    "required": true,
+                    "structure": {
+                        "name": "currency",
+                        "type": "String",
+                        "info": "Currency name. Example: USD, EUR"
+                        "required": true
+                    }
                 }
             ],
             "callbacks": [

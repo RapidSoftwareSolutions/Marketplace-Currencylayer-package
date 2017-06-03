@@ -191,6 +191,7 @@ return array (
             ),
             'vendorUrl' => 'http://apilayer.net/api/live',
             'method' => 'GET',
+            "custom" => true
         ),
         'getHistoricalExchangeRate' => array (
             'dictionary' => array (
@@ -199,6 +200,7 @@ return array (
             ),
             'vendorUrl' => 'http://apilayer.net/api/historical',
             'method' => 'GET',
+            "custom" => true
         ),
         'getCurrencyConversion' => array (
             'dictionary' => array (
@@ -219,6 +221,7 @@ return array (
             ),
             'vendorUrl' => 'http://apilayer.net/api/change',
             'method' => 'GET',
+            "custom" => true
         ),
     ),
 );
