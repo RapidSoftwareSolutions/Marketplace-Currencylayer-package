@@ -56,7 +56,7 @@
                     "structure": {
                         "name": "currency",
                         "type": "String",
-                        "info": "Currency name. Example: USD, EUR etc."
+                        "info": "Currency name. Example: USD, EUR etc.",
                         "required": true
                     }
                 }
@@ -170,7 +170,7 @@
                     "structure": {
                         "name": "currency",
                         "type": "String",
-                        "info": "Currency name. Example: USD, EUR"
+                        "info": "Currency name. Example: USD, EUR",
                         "required": true
                     }
                 }
