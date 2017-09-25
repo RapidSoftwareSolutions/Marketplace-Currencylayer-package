@@ -15,6 +15,11 @@
             "accessKey"
         ]
     },
+    "steps": [
+        "Sign up for a Currencylayer account (https://currencylayer.com/product)",
+        "Navigate to Quickstart page (https://currencylayer.com/quickstart)",
+        "Use Access Key as credentials"  
+    ],
     "blocks": [
         {
             "name": "getCurrencies",
